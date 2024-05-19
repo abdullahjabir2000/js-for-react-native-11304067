@@ -1,4 +1,4 @@
-# JavaScript Array Manipulation Project
+# DCIT 202 Assignment
 
 **Student ID:** 11304067
 
