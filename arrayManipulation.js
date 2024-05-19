@@ -28,3 +28,7 @@ function processArray(numbers) {
   
   console.log(formattedStrings);
   
+  module.exports = {
+    processArray,
+    formatArrayStrings
+  };
