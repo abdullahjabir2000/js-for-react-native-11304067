@@ -8,5 +8,23 @@ function processArray(numbers) {
     });
   }
   
-  const numArray = [4, 3, 6 ,7, 10, 46, 11];
-  console.log(processArray(numArray)); 
+
+
+  function formatArrayStrings(strings, numbers) {
+    return strings.map((str, index) => {
+      const num = numbers[index];
+      if (num % 2 === 0) {
+        return str.toUpperCase();
+      } else {
+        return str.toLowerCase();
+      }
+    });
+  }
+  
+  const inputStrings = ["University", "Legon", "Jabril", "Senegal", "Abdullah"];
+  const inputNumbers = [5,8,4,3,10,3,7,9];
+  const processedNumbers = processArray(inputNumbers);
+  const formattedStrings = formatArrayStrings(inputStrings, processedNumbers);
+  
+  console.log(formattedStrings);
+  
