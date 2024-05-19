@@ -1,8 +1,8 @@
-# DCIT 202 Assignment
+# DCIT 202 Assignment.
 
 **Student ID:** 11304067
 
-## Project Overview
+## Project Overview.
 
 This project involves several tasks that demonstrate array manipulation and object creation using JavaScript functions.
 
